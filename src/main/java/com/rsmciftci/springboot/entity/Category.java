@@ -1,4 +1,4 @@
-package com.bahadirmemis.springboot.entity;
+package com.rsmciftci.springboot.entity;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 

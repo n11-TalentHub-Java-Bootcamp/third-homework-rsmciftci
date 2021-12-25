@@ -1,25 +1,19 @@
-package com.bahadirmemis.springboot.entity;
+package com.rsmciftci.springboot.entity;
 
-import com.fasterxml.jackson.annotation.JsonFilter;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.*;
-import java.io.Serializable;
-import java.math.BigDecimal;
+import javax.persistence.Id;
 import java.util.Date;
 
-
 @Document(collection = "product")
-public class Product   {
+public class Product {
 
 
     @Id
     private String id;
 
-
     private String name;
-    private BigDecimal price;
+    private String price;
     private Date registrationDate;
     private String categoryId;
 
@@ -39,11 +33,11 @@ public class Product   {
         this.name = name;
     }
 
-    public BigDecimal getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 

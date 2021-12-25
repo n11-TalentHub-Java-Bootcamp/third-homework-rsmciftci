@@ -1,9 +1,8 @@
-package com.bahadirmemis.springboot.entity;
+package com.rsmciftci.springboot.entity;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.List;
 
 @Document(collection = "user")
@@ -17,8 +16,8 @@ public class User  {
     private String surname;
     private String email;
     private String phoneNumber;
-    private List<ProductComment> productComments;
-    private String userName;
+    private List<String> productCommentIds;
+    private String username;
 
 
     public String getId() {
@@ -61,19 +60,19 @@ public class User  {
         this.phoneNumber = phoneNumber;
     }
 
-    public List<ProductComment> getProductComments() {
-        return productComments;
+    public List<String> getProductCommentIds() {
+        return productCommentIds;
     }
 
-    public void setProductComments(List<ProductComment> productComments) {
-        this.productComments = productComments;
+    public void setProductCommentIds(List<String> productCommentIds) {
+        this.productCommentIds = productCommentIds;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 }

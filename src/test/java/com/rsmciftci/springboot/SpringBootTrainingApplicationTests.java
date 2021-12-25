@@ -1,4 +1,4 @@
-package com.bahadirmemis.springboot;
+package com.rsmciftci.springboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

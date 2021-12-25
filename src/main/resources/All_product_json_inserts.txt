@@ -1,0 +1,58 @@
+[
+{
+	"id" : "1",
+	"name" : "Mavi Elbise",
+	"price" : "200",
+
+	"categoryId" : "4"
+
+},
+{
+	"id" : "2",
+	"name" : "Kırmızı Elbise",
+	"price" : "300",
+
+	"categoryId" : "4"
+
+},
+{
+	"id" : "3",
+	"name" : "Mavi Gömlek",
+	"price" : "500",
+
+	"categoryId" : "5"
+
+},
+{
+	"id" : "4",
+	"name" : "Sarı Gömlek",
+	"price" : "450",
+
+	"categoryId" : "5"
+
+},
+{
+	"id" : "5",
+	"name" : "HP",
+	"price" : "15000",
+
+	"categoryId" : "7"
+
+},
+{
+	"id" : "6",
+	"name" : "MSI",
+	"price" : "20000",
+
+	"categoryId" : "7"
+
+},
+{
+	"id" : "7",
+	"name" : "Orta Sehpa",
+	"price" : "600",
+
+	"categoryId" : "9"
+
+}
+]

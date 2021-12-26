@@ -1,6 +1,5 @@
 package com.rsmciftci.springboot.controller;
 
-import com.rsmciftci.springboot.Repository.UserRepository;
 import com.rsmciftci.springboot.entity.User;
 import com.rsmciftci.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,15 +17,29 @@ public class UserController {
     private UserService userService;
 
 
+    @GetMapping("")
+    public List<User> findAll(){
+        return userService.findAll();
+    }
+
     @GetMapping({"{userId}"})
     public User findById(@PathVariable String userId){
         return userService.findById(userId);
     }
 
 
-    @GetMapping("")
-    public List<User> findAll(){
-        return userService.findAll();
+    @PostMapping("")
+    public ResponseEntity<Object> save(@RequestBody User user) {
+
+        user = userService.save(user);
+
+        return new ResponseEntity<>(user, HttpStatus.CREATED);
+    }
+
+
+    @DeleteMapping("")
+    public void delete(@RequestBody User user){
+        userService.delete(user);
     }
 /*
     @PostMapping("")

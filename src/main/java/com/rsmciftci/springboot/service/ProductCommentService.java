@@ -1,35 +1,53 @@
 package com.rsmciftci.springboot.service;
 
-import com.rsmciftci.springboot.Repository.ProductCommentRepository;
+import com.rsmciftci.springboot.Repository.Interfaces.ProductCommentRepositoryInterface;
 import com.rsmciftci.springboot.entity.ProductComment;
-import com.rsmciftci.springboot.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 @Service
+
 public class ProductCommentService {
 
     @Autowired
-    private ProductCommentRepository productCommentRepository;
+    private ProductCommentRepositoryInterface productCommentRepositoryInterface;
+    @Autowired
+    private UserService userService;
 
     public List<ProductComment> findAll(){
-        return productCommentRepository.findAll();
+        return productCommentRepositoryInterface.findAll();
     }
 
     public ProductComment findById(String productCommentID){
-        Optional<ProductComment> optionalProductComment = productCommentRepository.findById(productCommentID);
+        Optional<ProductComment> optionalProductComment = productCommentRepositoryInterface.findById(productCommentID);
         ProductComment productComment = null;
         if(optionalProductComment.isPresent()){
             productComment = optionalProductComment.get();
         }
         return productComment;
     }
+    @Transactional
     public ProductComment save(ProductComment productComment ){
-        return productCommentRepository.save(productComment);
+
+        String productId = productComment.getProductId();
+        String userId = productComment.getUserId();
+
+        productComment.setCommentDate(new Date());
+
+        productComment = productCommentRepositoryInterface.save(productComment);
+        userService.updateUserProductCommentSetBeforeSaveProductComment(userId,productId);
+
+        return productComment;
+
     }
+
+
+
     public void delete(ProductComment productComment){
-        productCommentRepository.delete(productComment);
+        productCommentRepositoryInterface.delete(productComment);
     }
 }

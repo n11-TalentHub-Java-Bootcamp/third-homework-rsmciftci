@@ -4,6 +4,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.Set;
 
 @Document(collection = "user")
 public class User  {
@@ -16,7 +17,7 @@ public class User  {
     private String surname;
     private String email;
     private String phoneNumber;
-    private List<String> productCommentIds;
+    private Set<String> productCommentIds;
     private String username;
 
 
@@ -60,11 +61,11 @@ public class User  {
         this.phoneNumber = phoneNumber;
     }
 
-    public List<String> getProductCommentIds() {
+    public Set<String> getProductCommentIds() {
         return productCommentIds;
     }
 
-    public void setProductCommentIds(List<String> productCommentIds) {
+    public void setProductCommentIds(Set<String> productCommentIds) {
         this.productCommentIds = productCommentIds;
     }
 

@@ -12,22 +12,22 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/users/")
 public class UserController {
-
+//
     @Autowired
     private UserService userService;
 
-
+    // (3.1)
     @GetMapping("")
     public List<User> findAll(){
         return userService.findAll();
     }
-
+    // (3.2)
     @GetMapping({"{userId}"})
     public User findById(@PathVariable String userId){
         return userService.findById(userId);
     }
 
-
+    //(3.3)
     @PostMapping("")
     public ResponseEntity<Object> save(@RequestBody User user) {
 
@@ -36,10 +36,10 @@ public class UserController {
         return new ResponseEntity<>(user, HttpStatus.CREATED);
     }
 
-
-    @DeleteMapping("")
-    public void delete(@RequestBody User user){
-        userService.delete(user);
+    //(3.4)
+    @DeleteMapping("{userId}")
+    public void delete(@PathVariable String userId){
+        userService.deleteByUserId(userId);
     }
 /*
     @PostMapping("")

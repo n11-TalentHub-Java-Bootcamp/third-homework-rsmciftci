@@ -39,9 +39,9 @@ public class ProductCommentController {
         return  new ResponseEntity<>(productComment, HttpStatus.CREATED);
     }
 
-    @DeleteMapping("")
-    public void delete(@RequestBody ProductComment productComment){
-        productCommentService.delete(productComment);
+    @DeleteMapping("{productCommentId}")
+    public void deleteByProductCommentId(@PathVariable String productCommentId){
+        productCommentService.deleteByProductCommentId(productCommentId);
     }
 
 

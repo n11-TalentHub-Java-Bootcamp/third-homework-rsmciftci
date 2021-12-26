@@ -1,6 +1,8 @@
 package com.rsmciftci.springboot.entity;
 
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 import javax.persistence.*;
 import java.util.List;
@@ -15,7 +17,11 @@ public class User  {
 
     private String name;
     private String surname;
+
+
+    @Indexed(unique = true)
     private String email;
+
     private String phoneNumber;
     private Set<String> productCommentIds;
     private String username;

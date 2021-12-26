@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="1, 2, 3.1 &amp; 3.2 Done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Classes/UserRepositoryClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/exception/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/exception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/exception/UserNotFoundException.java" afterDir="false" />
+    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="Deleting Process and Saving Process haven't been decided yet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/CategoryRepositoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductCommentRepositoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductRepositoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/UserRepositoryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Classes/UserRepositoryClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/CategoryRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductCommentRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/UserRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springMongo/spring-data-book" />
   </component>
   <component name="RunManager">
     <configuration name="SpringBootTrainingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -106,7 +102,9 @@
       <workItem from="1640456132340" duration="10031000" />
       <workItem from="1640467102557" duration="5210000" />
       <workItem from="1640472535229" duration="1709000" />
-      <workItem from="1640481651607" duration="10920000" />
+      <workItem from="1640481651607" duration="11366000" />
+      <workItem from="1640493090017" duration="66000" />
+      <workItem from="1640546167277" duration="5457000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1640456326750</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640474023605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleting Process and Saving Process haven't been decided yet.">
+      <created>1640492643996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640492643997</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +157,7 @@
     <MESSAGE value="Changes 1" />
     <MESSAGE value="Changes 2" />
     <MESSAGE value="1, 2, 3.1 &amp; 3.2 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="1, 2, 3.1 &amp; 3.2 Done" />
+    <MESSAGE value="Deleting Process and Saving Process haven't been decided yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleting Process and Saving Process haven't been decided yet." />
   </component>
 </project>

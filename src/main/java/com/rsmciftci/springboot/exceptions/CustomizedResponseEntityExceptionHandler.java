@@ -1,4 +1,4 @@
-package com.rsmciftci.springboot.exception;
+package com.rsmciftci.springboot.exceptions;
 
 
 import org.springframework.http.HttpHeaders;

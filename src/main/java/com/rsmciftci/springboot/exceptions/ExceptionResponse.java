@@ -1,4 +1,4 @@
-package com.rsmciftci.springboot.exception;
+package com.rsmciftci.springboot.exceptions;
 
 
 import java.util.Date;

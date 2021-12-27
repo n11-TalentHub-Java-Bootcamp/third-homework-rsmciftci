@@ -1,0 +1,39 @@
+[
+    {
+        "id" : "1",
+        "name" : "Rasim",
+        "surname" : "Ciftci",
+        "email" : "rsmciftci@gmail.com",
+        "phoneNumber" : "0541",
+        "username" : "rsmciftci"
+
+    },
+        {
+        "id" : "2",
+        "name" : "noname2",
+        "surname" : "nosurname2",
+        "email" : "noname2@gmail.com",
+        "phoneNumber" : "0542",
+        "username" : "username2"
+
+    },
+        {
+        "id" : "3",
+        "name" : "noname3",
+        "surname" : "nosurname3",
+        "email" : "noname3@gmail.com",
+        "phoneNumber" : "0543",
+        "username" : "username3"
+
+    },
+        {
+        "id" : "4",
+        "name" : "noname4",
+        "surname" : "nosurname4",
+        "email" : "noname4@gmail.com",
+        "phoneNumber" : "0544",
+        "username" : "username4"
+
+    }
+
+]

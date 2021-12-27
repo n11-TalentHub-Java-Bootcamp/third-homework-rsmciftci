@@ -1,0 +1,39 @@
+[
+    {
+        "id" : "1",
+        "comment" : "comment1",
+        "productId" : "1",
+        "userId" : "1"
+    },
+    {
+        "id" : "2",
+        "comment" : "comment2",
+        "productId" : "2",
+        "userId" : "2"
+    },
+    {
+        "id" : "3",
+        "comment" : "comment3",
+        "productId" : "2",
+        "userId" : "3"
+    },
+    {
+        "id" : "4",
+        "comment" : "comment4",
+        "productId" : "3",
+        "userId" : "3"
+    },
+    {
+        "id" : "5",
+        "comment" : "comment5",
+        "productId" : "3",
+        "userId" : "2"
+    },
+    {
+        "id" : "6",
+        "comment" : "comment6",
+        "productId" : "3",
+        "userId" : "1"
+    }
+
+]

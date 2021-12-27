@@ -1,0 +1,57 @@
+[
+    {
+	"id" : "1" ,
+	"name" : "Moda" ,
+	"breakdown" : "1" ,
+	"superCategoryId" : null
+},
+
+{
+	"id" : "2" ,
+	"name" : "Elektronik" ,
+	"breakdown" : "1" ,
+	"superCategoryId" : null
+},
+{
+	"id" : "3" ,
+	"name" : "Ev & Yaşam" ,
+	"breakdown" :"1" ,
+	"superCategoryId" : null
+},
+{
+	"id" : "4" ,
+	"name" : "Elbise" ,
+	"breakdown" :"2" ,
+	"superCategoryId" : "1"
+},
+{
+	"id" : "5" ,
+	"name"  : "Gömlek" ,
+	"breakdown" :"2" ,
+	"superCategoryId" : "1"
+},
+{
+	"id" : "6" ,
+	"name" : "Bilgisayar" ,
+	"breakdown" :"2" ,
+	"superCategoryId" : "2"
+},
+{
+	"id" : "7" ,
+	"name" :"Dizüstü Bilgisayar" ,
+	"breakdown" :"3" ,
+	"superCategoryId" : "6"
+},
+{
+	"id" : "8" ,
+	"name" :  "Mobilya" ,
+	"breakdown" :"2" ,
+	"superCategoryId" : "3"
+},
+{
+	"id" : "9" ,
+	"name" :  "Sehpa" ,
+	"breakdown" :"3" ,
+	"superCategoryId" : "8"
+}
+]

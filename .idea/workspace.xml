@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="Done">
+    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="Comments are added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1640472535229" duration="1709000" />
       <workItem from="1640481651607" duration="11366000" />
       <workItem from="1640493090017" duration="66000" />
-      <workItem from="1640546167277" duration="6549000" />
+      <workItem from="1640546167277" duration="6706000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1640456326750</created>
@@ -148,7 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640562843268</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Done">
+      <created>1640563765395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640563765395</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Comments are added.">
+      <created>1640563812463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640563812463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +183,7 @@
     <MESSAGE value="1, 2, 3.1 &amp; 3.2 Done" />
     <MESSAGE value="Deleting Process and Saving Process haven't been decided yet." />
     <MESSAGE value="Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done" />
+    <MESSAGE value="Comments are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments are added." />
   </component>
 </project>

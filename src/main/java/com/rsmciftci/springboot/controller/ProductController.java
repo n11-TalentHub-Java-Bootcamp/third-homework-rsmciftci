@@ -9,20 +9,4 @@ public class ProductController {
 
 
 
-
-    /*
-    @Autowired
-    private ProductRepository productRepository;
-
-    @PostMapping("")
-    public ResponseEntity<Object> saveAll(@RequestBody List<Product> productList){
-        for(Product product : productList){
-            Date currentDate = new Date();
-            product.setRegistrationDate(currentDate);
-        }
-        productList = productRepository.saveAll(productList);
-        return new ResponseEntity<>(productList, HttpStatus.CREATED);
-    }
-
-     */
 }

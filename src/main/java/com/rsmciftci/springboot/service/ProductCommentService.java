@@ -32,7 +32,10 @@ public class ProductCommentService {
     // Saves productComment
     public ProductComment save(ProductComment productComment ){
 
-        productComment.setCommentDate(new Date());
+        if(productComment.getCommentDate() == null){
+            productComment.setCommentDate(new Date());
+        }
+
         productComment = productCommentRepository.save(productComment);
         return productComment;
 

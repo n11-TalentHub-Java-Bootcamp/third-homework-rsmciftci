@@ -1,7 +1,7 @@
    _  __  ___  ___
   / |/ / <  / <  /
  /    /  / /  / /
-/_/|_/  /_/  /_/  
+/_/|_/  /_/  /_/
 
 ${application.title} ${application.version}
 Powered by Spring Boot ${spring-boot.version}

@@ -14,13 +14,13 @@ public class ProductCommentService {
 
     @Autowired
     private ProductCommentRepository productCommentRepository;
-   /* @Autowired
-    private UserService userService;
-*/
+
+    // Finds all ProductComments and returns as a List
     public List<ProductComment> findAll(){
         return productCommentRepository.findAll();
     }
 
+    // Finds productComment by it's id. Returns null if id doesn't match with any productComment.
     public ProductComment findById(String productCommentID){
         Optional<ProductComment> optionalProductComment = productCommentRepository.findById(productCommentID);
         ProductComment productComment = null;
@@ -29,17 +29,11 @@ public class ProductCommentService {
         }
         return productComment;
     }
-    //@Transactional
+    // Saves productComment
     public ProductComment save(ProductComment productComment ){
 
-        //String productId = productComment.getProductId();
-        //String userId = productComment.getUserId();
-
         productComment.setCommentDate(new Date());
-
         productComment = productCommentRepository.save(productComment);
-        //userService.updateUserProductCommentSetBeforeSaveProductComment(userId,productId);
-
         return productComment;
 
     }

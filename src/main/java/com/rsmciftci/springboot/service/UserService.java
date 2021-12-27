@@ -13,15 +13,13 @@ import java.util.Optional;
 public class UserService {
     @Autowired
     private UserRepository userRepository;
-   /* @Autowired
-    private UserRepositoryClass userRepositoryClass;
-*/
 
-
+    // Finds all user by userRepository and return it
     public List<User>  findAll(){
         return userRepository.findAll();
     }
 
+    // Finds user by user's id and returns it if any user matches with userId.
     public User findById(String userId){
         Optional<User> optionalUser = userRepository.findById(userId);
         User user = null;
@@ -30,10 +28,11 @@ public class UserService {
         }
         return user;
     }
-    public User save(User user){
 
-        return userRepository.save(user);
-    }
+    // Saves user
+    public User save(User user){ return userRepository.save(user); }
+
+    // Deletes user by user's id.
     public void deleteByUserId(String userId){
         userRepository.deleteById(userId);
     }

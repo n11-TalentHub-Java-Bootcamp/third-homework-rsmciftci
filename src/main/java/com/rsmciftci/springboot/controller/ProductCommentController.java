@@ -18,52 +18,35 @@ public class ProductCommentController {
     @Autowired
     private ProductCommentService productCommentService;
 
-
-
-
-
-    @GetMapping({"{productCommentId}"})
-    public ProductComment findById(@PathVariable String productCommentId){
-        return productCommentService.findById(productCommentId);
-    }
-
-
+    // (3.1)
+    // Finds all productComments and returns them.
     @GetMapping("")
     public List<ProductComment> findAll(){
         return productCommentService.findAll();
     }
 
+    // (3.2)
+    // Finds productComment by it's id.
+    @GetMapping({"{productCommentId}"})
+    public ProductComment findById(@PathVariable String productCommentId){
+        return productCommentService.findById(productCommentId);
+    }
+
+    // (3.3)
+    // Saves ProductComment and returns productComment& HttpStatus.Created
     @PostMapping ("")
     public ResponseEntity<Object> save(@RequestBody ProductComment productComment){
         productComment = productCommentService.save(productComment);
         return  new ResponseEntity<>(productComment, HttpStatus.CREATED);
     }
 
+    // (3.4)
+    // Deletes productCommeny by it's id.
     @DeleteMapping("{productCommentId}")
     public void deleteByProductCommentId(@PathVariable String productCommentId){
         productCommentService.deleteByProductCommentId(productCommentId);
     }
 
 
-
-
-
-
-
-/*
-    @Autowired
-    private ProductCommentRepository productCommentRepository;
-
-    @PostMapping("")
-    public ResponseEntity<Object> saveAll(@RequestBody List<ProductComment> productCommentList){
-        for(ProductComment productComment : productCommentList){
-            Date currentDate = new Date();
-            productComment.setCommentDate(currentDate);
-        }
-        productCommentList = productCommentRepository.saveAll(productCommentList);
-        return new ResponseEntity<>(productCommentList, HttpStatus.CREATED);
-    }
-
- */
 }
 

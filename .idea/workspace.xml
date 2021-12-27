@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="Deleting Process and Saving Process haven't been decided yet.">
+    <list default="true" id="f35a8a4c-331e-4d78-a68c-82d51f296295" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Classes/UserRepositoryClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/CategoryRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductCommentRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductCommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/ProductRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/Interfaces/UserRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/Repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/ProductCommentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/ProductCommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rsmciftci/springboot/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +97,7 @@
       <workItem from="1640472535229" duration="1709000" />
       <workItem from="1640481651607" duration="11366000" />
       <workItem from="1640493090017" duration="66000" />
-      <workItem from="1640546167277" duration="5457000" />
+      <workItem from="1640546167277" duration="6549000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1640456326750</created>
@@ -134,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640492643997</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done">
+      <created>1640562706813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640562706813</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Done">
+      <created>1640562813731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640562813731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Done">
+      <created>1640562843268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640562843268</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +172,7 @@
     <MESSAGE value="Changes 2" />
     <MESSAGE value="1, 2, 3.1 &amp; 3.2 Done" />
     <MESSAGE value="Deleting Process and Saving Process haven't been decided yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleting Process and Saving Process haven't been decided yet." />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
 </project>

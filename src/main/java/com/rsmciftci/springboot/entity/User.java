@@ -2,10 +2,8 @@ package com.rsmciftci.springboot.entity;
 
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
-
 import javax.persistence.*;
-import java.util.List;
+
 import java.util.Set;
 
 @Document(collection = "user")
@@ -18,11 +16,12 @@ public class User  {
     private String name;
     private String surname;
 
-
+    // The annotation prevents to save any email more than once to db.
     @Indexed(unique = true)
     private String email;
 
     private String phoneNumber;
+    // Set<> it used to prevent to save same productCommentId more than once.
     private Set<String> productCommentIds;
     private String username;
 
